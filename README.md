@@ -1,3 +1,12 @@
+# Window 11 Clone 
+  
+  This application made of using language javascript and Reactjs.
+  
+  Download code and run 
+
+### `npm install`
+### `npm start`
+  
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
