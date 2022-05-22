@@ -9,6 +9,7 @@ export default function Window(props){
     const[right,setRight] = React.useState(false)
     const[NotepadFile1,setNotepadFile1] = React.useState(false)
     const[NotepadEdit1,setNotepadEdit1] = React.useState(false)
+    const[Notepadsetting,setNotepadsettingclick] = React.useState(false)
     
     const[X,setX] = React.useState(0)
     const[Y,setY] = React.useState(0)
@@ -80,6 +81,9 @@ export default function Window(props){
                 NotepadFileclick ={()=>setNotepadFile1((preve)=>!preve)}
                 NotepadEdit1 = {NotepadEdit1}
                 NotepadEditclick1 ={()=>setNotepadEdit1((preve)=>!preve)}
+                setting1 = {Notepadsetting}
+                Notepadsettingclick1 ={()=>setNotepadsettingclick((preve)=>!preve)}
+                
             />
         }
         </div>
